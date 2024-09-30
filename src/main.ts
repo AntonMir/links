@@ -5,7 +5,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.setGlobalPrefix('api');
 
-  console.log('1');
+  console.log('2');
   await app.listen(3000);
 }
 bootstrap();
